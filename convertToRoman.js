@@ -2,7 +2,7 @@ function convertToRoman(num) {
 
 //Highlight boundaries
   if(num <= 0 || num >= 4000) {
-    console.log("Such a number does not exist in Roman Numerals.");
+    console.log("We are dealing with numbers up to 3999");
     return null;
   }
 
